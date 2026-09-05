@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ScreenSmart Kids - Quiz</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+
+        <div class="logo">
+            ScreenSmart Kids
+        </div>
+
+        <div class="nav-links">
+
+            <a href="index.html">Home</a>
+
+            <a href="index.html#about">About</a>
+
+            <a href="index.html#habits">Healthy Habits</a>
+
+            <a href="index.html#check">Self-Check</a>
+
+            <a href="quiz.html">Quiz</a>
+            <a href="feedback.html">Feedback</a>
+
+        </div>
+
+    </nav>
+
+
+    <!-- Quiz -->
+
+    <section class="quiz-section">
+
+        <h1>🧠 Screen Time Awareness Quiz</h1>
+
+        <p>
+            Test your knowledge about healthy screen habits.
+        </p>
+
+
+        <div class="quiz-box">
+
+
+            <!-- Question 1 -->
+
+            <div class="quiz-question">
+
+                <h3>1. Which activity is a good alternative to screen entertainment?</h3>
+
+                <label>
+                    <input type="radio" name="q1" value="0">
+                    Watching more videos
+                </label>
+
+                <label>
+                    <input type="radio" name="q1" value="1">
+                    Outdoor play
+                </label>
+
+                <label>
+                    <input type="radio" name="q1" value="0">
+                    Continuous gaming
+                </label>
+
+                <label>
+                    <input type="radio" name="q1" value="0">
+                    Scrolling social media
+                </label>
+
+            </div>
+
+
+            <!-- Question 2 -->
+
+            <div class="quiz-question">
+
+                <h3>2. Which device can contribute to screen time?</h3>
+
+                <label>
+                    <input type="radio" name="q2" value="0">
+                    Only a mobile phone
+                </label>
+
+                <label>
+                    <input type="radio" name="q2" value="1">
+                    Mobile, TV, computer and tablet
+                </label>
+
+                <label>
+                    <input type="radio" name="q2" value="0">
+                    Only a television
+                </label>
+
+                <label>
+                    <input type="radio" name="q2" value="0">
+                    None
+                </label>
+
+            </div>
+
+
+            <!-- Question 3 -->
+
+            <div class="quiz-question">
+
+                <h3>3. Why is balancing screen time important?</h3>
+
+                <label>
+                    <input type="radio" name="q3" value="1">
+                    It allows time for studies, sleep, activities and family.
+                </label>
+
+                <label>
+                    <input type="radio" name="q3" value="0">
+                    So children can use screens all day.
+                </label>
+
+                <label>
+                    <input type="radio" name="q3" value="0">
+                    So children never play outside.
+                </label>
+
+                <label>
+                    <input type="radio" name="q3" value="0">
+                    It is not important.
+                </label>
+
+            </div>
+
+
+            <!-- Question 4 -->
+
+            <div class="quiz-question">
+
+                <h3>4. Which is a healthy screen habit?</h3>
+
+                <label>
+                    <input type="radio" name="q4" value="0">
+                    Using screens continuously.
+                </label>
+
+                <label>
+                    <input type="radio" name="q4" value="1">
+                    Having screen-free periods.
+                </label>
+
+                <label>
+                    <input type="radio" name="q4" value="0">
+                    Skipping outdoor activities.
+                </label>
+
+                <label>
+                    <input type="radio" name="q4" value="0">
+                    Using screens during every meal.
+                </label>
+
+            </div>
+
+
+            <!-- Question 5 -->
+
+            <div class="quiz-question">
+
+                <h3>5. What can parents do to encourage healthy screen habits?</h3>
+
+                <label>
+                    <input type="radio" name="q5" value="0">
+                    Allow unlimited screen use.
+                </label>
+
+                <label>
+                    <input type="radio" name="q5" value="1">
+                    Set reasonable routines and encourage offline activities.
+                </label>
+
+                <label>
+                    <input type="radio" name="q5" value="0">
+                    Stop all outdoor activities.
+                </label>
+
+                <label>
+                    <input type="radio" name="q5" value="0">
+                    Ignore screen habits.
+                </label>
+
+            </div>
+
+
+            <button class="btn" onclick="calculateQuiz()">
+                Submit Quiz
+            </button>
+
+
+            <div id="quizResult"></div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Footer -->
+
+    <footer>
+
+        <p>
+            © 2026 ScreenSmart Kids | Community Engagement Project
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
